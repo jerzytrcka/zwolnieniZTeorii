@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 export default class Header extends React.Component {
   render() {
@@ -6,7 +7,6 @@ export default class Header extends React.Component {
       <header>
         <h1>Kasa to klasa</h1>
           <nav><ul>
-            <li>Test</li>
           </ul></nav>
       </header>
     );
