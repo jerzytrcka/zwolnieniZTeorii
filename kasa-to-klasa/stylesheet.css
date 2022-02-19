@@ -1,0 +1,13 @@
+
+/* interview page styles */
+.ivIcon {width: 20%; height: 60vh; overflow: hidden; text-align: center;
+  border: 2px solid black; padding: 1vh; position: relative; margin: 30px;}
+.ivIcon:hover {padding: 2vh; top: -1vh; right: 1vh}
+.ivIcon:hover .readMore {bottom: 1.5vh; right: 1.5vh}
+.ivIconLink {text-decoration: none; color: black;}
+.ivIcon img {width: 95%; height: 50%; margin: auto;}
+.ivIcon h2 {margin: auto; display: block; }
+.ivIcon p {width: 95%; height: 20%; margin: auto; display: block;
+  text-align: justify;}
+.ivIcon .readMore {text-align: right; float: right; position: absolute;
+  bottom: 1%; right: 1%; }
