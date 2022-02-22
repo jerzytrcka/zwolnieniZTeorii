@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Radley&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 20px 50px;
+}
+
+li,
+a,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  color: #4a696b;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: #4a696b;
+}
+
+.parent {
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  top: -38px;
+  left: -30px;
+}
+
+.nav_links li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  border-radius: 15px;
+  background-color: #fbf8ea;
+  padding: 40px 70px;
+}
+
+.nav_links li a :hover {
+  cursor: pointer;
+  background-color: #f0001c;
+}

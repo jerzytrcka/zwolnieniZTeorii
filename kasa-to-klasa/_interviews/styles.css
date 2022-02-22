@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Radley&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 20px 10px;
+  background-color: #fbf8ea;
+}
+
+li,
+a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  color: #fbf8ea;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 45px;
+  color: #fbf8ea;
+  text-decoration: none;
+}
+
+.container {
+  display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 5%;
+}
+
+ul {
+  display: inline-flex;
+}
+
+.interview_image {
+  width: 250px;
+  height: 208px;
+}
+
+.container li a {
+  border-radius: 15px;
+  background-color: #4a696b;
+  padding: 40px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.heading {
+  border-radius: 25px;
+  background-color: #4a696b;
+  padding: 40px 70px;
+}
