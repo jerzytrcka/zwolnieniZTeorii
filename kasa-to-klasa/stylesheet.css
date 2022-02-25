@@ -1,13 +1,26 @@
+body { width: 95vw; height: 100%; margin: 0; background-color: #FBF8EA;}
+
+main {margin: 0 2vw 0 2vw; width: 98vw;}
 
 /* interview page styles */
-.ivIcon {width: 20%; height: 60vh; overflow: hidden; text-align: center;
-  border: 2px solid black; padding: 1vh; position: relative; margin: 30px;}
-.ivIcon:hover {padding: 2vh; top: -1vh; right: 1vh}
+.ivIcon {width: 300px; height: 500px; overflow: hidden; text-align: center;
+  border: 2px solid black; padding: 1vh; position: relative; margin: 1vh;
+  display: inline-block; background-color: #406A6C; border-radius: 25px;}
+.ivIcon:hover {padding: 2vh; margin: 0;}
 .ivIcon:hover .readMore {bottom: 1.5vh; right: 1.5vh}
-.ivIconLink {text-decoration: none; color: black;}
+.ivIconLink {text-decoration: none; color: #FFFFFF;}
 .ivIcon img {width: 95%; height: 50%; margin: auto;}
 .ivIcon h2 {margin: auto; display: block; }
 .ivIcon p {width: 95%; height: 20%; margin: auto; display: block;
   text-align: justify;}
 .ivIcon .readMore {text-align: right; float: right; position: absolute;
-  bottom: 1%; right: 1%; }
+  bottom: 1%; right: 1%; color: #FFFFFF}
+
+/* display: inline-block*/
+.sidebar { display: none; float: right; width: 300px; height: 50vh;
+border: 2px solid black; }
+
+#tempHeader  { width: 100%; position: fixed; height: 8vh;
+  border: 2px solid black; top: 0; z-index: 1; background-color: #406A6C}
+#tempHeader h1 {margin: 0}
+#headerSpace { height: 8vh; width: 100%; }
