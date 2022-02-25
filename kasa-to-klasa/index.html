@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<title>Kasa to Klasa</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+#mainHeader{
+  color: white;
+}
+#header{
+  color: black;
+
+}
+.features{
+  align-items: center;
+    justify-content: center;
+    background-color: teal;
+}
+.about{
+  margin: 30px;
+}
+.button{
+  border-radius: 50px;
+  width: 100px;
+  height: 50px;
+  border-color: black;
+  background-color: #FBF8EA;
+}
+.button:hover{
+  background-color: #073B4C;
+  color: white;
+}
+.container{
+  width:100%;
+  min-height:550px;
+  max-height:800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #5B8E7D;
+  justify-content: center;
+
+}
+#teamMember {
+  width:100%;
+  min-width: 100px;
+  max-width: 180px;
+  height:100%;
+  min-height: 200px;
+  max-height: 230px;
+  border-radius: 50%
+}
+.column {
+  flex: 30%;
+  padding: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+#info{
+
+}
+.row {
+  display: flex;
+}
+</style>
+<body id="myPage">
+
+<!-- Image Header -->
+<div class="container">
+    <h1 id="mainHeader">KASA TO KLASA</h1>
+    <button class= "button">O nas</button>
+  </div>
+</div>
+
+
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-40 w3-center" id="team">
+<h2>Nasz zespół</h2>
+<p>Poznaj nasz zespół</p>
+
+<div class="row"><br>
+
+<div class="column">
+  <img src="assets/sara.png" id="teamMember" style="width:100%">
+  <h3>Sara</h3>
+  <p>Lider i Programistka</p>
+</div>
+
+<div class="column">
+  <img src="assets/janek.png" id="teamMember" style="width:100%">
+  <h3>Jan</h3>
+  <p>Content i social media</p>
+</div>
+
+<div class="column">
+  <img src="assets/jerzy.png" id="teamMember" style="width:100%" >
+  <h3>Jerzy</h3>
+  <p>Programista</p>
+</div>
+
+<div class="column">
+  <img src="assets/rozalski.png" id="teamMember" style="width:100%" >
+  <h3>Mateusz</h3>
+  <p>Programista</p>
+</div>
+
+<div class="column">
+  <img src="assets/wiktoria.png" id="teamMember" style="width:100%" >
+  <h3>Wiktoria</h3>
+  <p>Social Media</p>
+</div>
+<div class="column">
+  <img src="assets/wroczynska.png" id="teamMember" style="width:100%">
+  <h3>Antonina</h3>
+  <p>Programistka i social media</p>
+</div>
+
+</div>
+</div>
+<!-- The Tour Section -->
+ <div class="w3-black" id="tour">
+   <div class="w3-container w3-content w3-padding-14" style="max-width:400px">
+     <h2 class="w3-wide w3-center">Featured</h2>
+     <p class="w3-opacity w3-center"><i>Nasze ulubione wywiady!</i></p><br>
+
+
+     <div class="w3-row-padding w3-padding-32" style="margin:0 -200px">
+       <div class="w3-third w3-margin-bottom">
+         <img src="assets/elon.png" alt="New York" style="width:100%" class="w3-hover-opacity">
+         <div class="w3-container w3-white">
+           <p><b>Elon Musk</b></p>
+           <p class="w3-opacity">Fri 27 Nov 2016</p>
+           <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+           <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Zobacz</button>
+         </div>
+       </div>
+       <div class="w3-third w3-margin-bottom">
+         <img src="assets/leosia.png" alt="Paris" style="width:100%" class="w3-hover-opacity">
+         <div class="w3-container w3-white">
+           <p><b>Young Leosia</b></p>
+           <p class="w3-opacity">Sat 28 Nov 2016</p>
+           <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+           <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Zobacz</button>
+         </div>
+       </div>
+       <div class="w3-third w3-margin-bottom">
+         <img src="assets/sophia.png" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+         <div class="w3-container w3-white">
+           <p><b>Sophia Amoruso</b></p>
+           <p class="w3-opacity">Sun 29 Nov 2016</p>
+           <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+           <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Zobacz</button>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+
+
+
+
+
+<div class="about" style="text-align: center;">
+  <h1>O nas!</h1>
+  <blockquote id="info">Lorem ipsum dolor sit amet,
+     consectetur adipiscing elit, s
+     ed do eiusmod tempor incididunt ut
+     labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut
+      aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit
+      in voluptate velit esse cillum dolore eu
+      fugiat nulla pariatur. Excepteur sint
+       occaecat cupidatat non proident, sunt
+       in culpa qui officia deserunt mollit anim id est laborum.</blockquote>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+<div>
+  <li>
+  </li>
+  </div>
+</footer>
+
+</body>
+</html>
