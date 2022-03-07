@@ -26,4 +26,21 @@ border: 2px solid black; }
 #tempHeader  { width: 100%; position: fixed; height: 8vh;
   border: 2px solid black; top: 0; z-index: 1; background-color: #5B8E7D}
 #tempHeader h1 {margin: 0}
-#headerSpace { height: 8vh; width: 100%; }
+.headerSpace { height: 8vh; width: 100%; }
+
+/* iv template styles */
+
+/*for mobile*/
+@media screen and (max-width: 1000px) {
+  .ivImg { width: 90%; }
+  .questions {width:95%; text-align: justify; margin: auto;}
+}
+/*for desktop*/
+@media screen and (min-width: 1000px) {
+  .ivImg { width: 30%; height: auto; float: right; margin-right: 5%;}
+  .questions {width:60%; text-align: justify; margin: auto; float: left;}
+}
+
+/* style for underConst. */
+.largeText {font-size: 24px;}
+.largeH1 {font-size: 30px;}
