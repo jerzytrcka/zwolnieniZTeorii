@@ -19,7 +19,6 @@ main {margin: 0 2vw 0 2vw; width: 98vw;}
 .ivIcon .readMore {text-align: right; float: right; position: absolute;
   bottom: 1%; right: 1%; color: black}
 
-/* display: inline-block*/
 .sidebar { display: none; float: right; width: 300px; height: 50vh;
 border: 2px solid black; }
 
